@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bean Reviews</title>
+
+    <!-- <script src="js/bootstrap.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.10/angular.min.js"></script>
+
+    <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'> -->
+    <!-- <link rel="stylesheet" href="css\review.css"> -->
+
+
+    <script>
+        function TodoCtrl($scope) {
+            $scope.images = ["c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag2.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag3.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag4.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag5.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag6.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag7.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag8.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag9.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag10.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag11.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag12.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag13.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag14.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag15.jpg","c:/Users/Daniel/Documents/GitHub/Bean_Reviews/Assets/images/bags/coffeeBag16.jpg"];
+        } 
+    </script>   
+
+
+</head>
+
+<body ng-app>
+<style>
+    ul, html, body{
+        padding: 0;
+        margin: 0;
+    }
+    li{
+        width: 150px;
+        height: 150px;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+    .squareImage{
+        height: 150px;
+        display: inline-block;
+    }
+    #backgroundImages{
+        list-style: none;
+        display: inline-block;
+    }
+    .image {
+        position:relative;
+    }
+    .image:after, .image:before {
+        position:absolute;
+        opacity: 1;
+        transition: all 1s;
+        -webkit-transition: all 1s;
+    }
+    .image:after {
+        content:'\A';
+        width:100%; height:100%;
+        top:0; left:0;
+        background:rgba(0,0,0,0.85);
+    }
+    .image:before {
+        content: attr(data-content);
+        width:100%;
+        color:#fff;
+        z-index:1;
+        text-align:center;
+        box-sizing:border-box;
+        -moz-box-sizing:border-box;
+    }
+    .image:hover:after, .image:hover:before {
+        opacity: .5;
+    }
+</style>
+<div ng-controller="TodoCtrl">
+    <ul id="backgroundImages">
+        <li class="image" ng-repeat="image in images"><img src={{image}} class="squareImage dark" alt=""></li>
+    </ul>
+</div>
+
+
+</body>
+
+</html>
