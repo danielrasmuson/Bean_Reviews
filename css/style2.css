@@ -1,7 +1,7 @@
 /* @override 
   http://planetoftheweb.com/_/css/styles.css */
 
-@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900|Droid+Sans:400,700");
+/*@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900|Droid+Sans:400,700");*/
 
 /* Reset Styles */
 
@@ -71,8 +71,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     clear: both;
 }
 
-
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bree Serif', serif;
   font-weight: normal;
@@ -121,8 +119,8 @@ a.small {
 /* Search Styles */
 
 .search {
-  background: #063642;
-  color: #EEE8D5;
+  /*background: #063642;*/
+  /*color: #EEE8D5;*/
   width: 90%;
   min-width: 320px;
   max-width: 500px;
@@ -176,15 +174,15 @@ a.small {
 }
 
 .search input {
-  font-family: 'Droid Sans', sans-serif;
+  /*font-family: 'Droid Sans', sans-serif;*/
   width: 100%;
   padding: 10px 0 10px 15px;
   font-size: 1rem;
-  color: #475B62;
-  background: rgba(255,255,255,0.4);
-  border: 1px solid rgba(255,255,255,0.2);
-  border-radius: 10px;
-  outline: 0;
+  /*color: #475B62;*/
+  /*background: rgba(255,255,255,0.4);*/
+  /*border: 1px solid rgba(255,255,255,0.2);*/
+  /*border-radius: 10px;*/
+  /*outline: 0;*/
 }
 
 .search .formgroup input {
@@ -203,11 +201,11 @@ a.small {
   padding: 10px 0 10px 15px;
   font-size: 1rem;
   color: #475B62;
-  background: rgba(255,255,255,0.4);
+/*  background: rgba(255,255,255,0.4);
   border: 1px solid rgba(0,0,0,0.3);
   border-radius: 10px;
   outline: 0;
-}
+*/}
 
 /* Artist List Styles */
 
@@ -315,3 +313,21 @@ a.small {
   overflow: hidden;
 }
 
+/*my css*/
+body {
+  background-image: url("../Assets/images/beanDrawing.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#searchBar {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -240px;
+    margin-top: -100px;
+}
+#searchInput {
+    width: 400px;
+    box-shadow: 0px 0px 50px black;
+}
