@@ -1,26 +1,29 @@
+<link rel="stylesheet" href="css/bootstrap.css">
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
 <style>
-    .review{
-        width: 300px;
-    }
-    .review img{
-        width: 25px;
-    }
-    .review h4{
-        display: inline-block;
-        padding: 0 0 0 10px;
-        margin: 0;
-    }
-    .clear{
-        opacity: .5;
-    }
+#createReview{
+    width: 400px;
+}
+#createReview img {
+    width: 25px;
+}
+#createReview button{
+    margin-top: 10px;   
+    float: right;
+}
 </style>
-<div class="review">
+<div id="createReview">
     <img src="images/bean.png" alt="">
     <img src="images/bean.png" alt="">
     <img src="images/bean.png" alt="">
     <img src="images/bean.png" alt="">
-    <img src="images/bean.png" alt="" class="clear">
-    <h4>coffee_pro_67</h4>
-    <br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, ut, recusandae, expedita id sequi suscipit voluptates debitis facere dolorum quia harum ipsa culpa quas adipisci neque distinctio quasi accusamus nostrum!</p>
+    <img src="images/bean.png" alt="">
+    <form role="form">
+      <div class="form-group">
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Headline of Review">
+      </div>
+      <textarea class="form-control" rows="5" placeholder="Write your review here"></textarea>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
 </div>

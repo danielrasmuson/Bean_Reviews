@@ -291,3 +291,28 @@ a.small {
     width: 400px;
     box-shadow: 0px 0px 50px black;
 }
+.review{
+    width: 350px;
+}
+.review img{
+    width: 25px;
+}
+.review .username{
+    display: inline-block;
+    padding: 0 0 0 10px;
+    margin: 0;
+    float: right;
+}
+.clear{
+    opacity: .5;
+}
+#createReview{
+    width: 400px;
+}
+#createReview img {
+    width: 25px;
+}
+#createReview button{
+    margin-top: 10px;   
+    float: right;
+}

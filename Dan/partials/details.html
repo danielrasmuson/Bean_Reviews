@@ -13,42 +13,43 @@
             <div class="bio">{{artists[whichItem].about}}</div>
         </div>
     </div>
-    <style>
-        .review{
-            width: 350px;
-        }
-        .review img{
-            width: 25px;
-        }
-        .review h4{
-            display: inline-block;
-            padding: 0 0 0 10px;
-            margin: 0;
-            float: right;
-        }
-        .clear{
-            opacity: .5;
-        }
-    </style>
     <div class="review">
+        <h4>Headline for review</h4>
         <img src="images/bean.png" alt="">
         <img src="images/bean.png" alt="">
         <img src="images/bean.png" alt="">
         <img src="images/bean.png" alt="">
         <img src="images/bean.png" alt="" class="clear">
-        <h4>coffee_pro_67</h4>
+        <h4 class="username">coffee_pro_67</h4>
         <br>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, ut, recusandae, expedita id sequi suscipit voluptates debitis facere dolorum quia harum ipsa culpa quas adipisci neque distinctio quasi accusamus nostrum!</p>
     </div>
     <div class="review">
+        <h4>Headline for review</h4>
         <img src="images/bean.png" alt="">
         <img src="images/bean.png" alt="">
         <img src="images/bean.png" alt="" class="clear">
         <img src="images/bean.png" alt="" class="clear">
         <img src="images/bean.png" alt="" class="clear">
-        <h4>espresso_junkie_XX</h4>
+        <h4 class="username">espresso_junkie_XX</h4>
         <br>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, ut, recusandae, expedita id sequi suscipit voluptates debitis facere dolorum quia harum ipsa culpa quas adipisci neque distinctio quasi accusamus nostrum!</p>
+    </div>
+    <hr style="border-color:black">
+    <div id="createReview">
+        <h3>Write a Review</h3>
+        <img src="images/bean.png" alt="">
+        <img src="images/bean.png" alt="">
+        <img src="images/bean.png" alt="">
+        <img src="images/bean.png" alt="">
+        <img src="images/bean.png" alt="">
+        <form role="form">
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Headline of Review">
+          </div>
+          <textarea class="form-control" rows="5" placeholder="Write your review here"></textarea>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
     </div>
     <a href="index.html">&laquo; Back to search</a>
 </section>
