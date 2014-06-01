@@ -316,3 +316,23 @@ a.small {
     margin-top: 10px;   
     float: right;
 }
+#navOptions{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#navSearch{
+    /*todo bad - flaot right wasnt working*/
+    position: relative;
+    padding-left: 450px;
+}
+#navSearch input{
+    width: 200px;
+}
+#createReview img {
+    width: 25px;
+}
+.clear {
+    opacity: .5;
+}
