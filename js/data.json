@@ -1,0 +1,49 @@
+[
+  {
+    "name":"Jameco Medium Roast",
+    "brand":"Death Wish Coffee",
+    "about":"I was reborn on this day, birthed by this brew. The taste is second only to the draught of the olden gods. Take a sip and revel in the typhoon force of this cup... and be humbled, mortal. And hyper. Be cone with ye."
+
+  },
+  {
+    "name":"Espresso Roast Verismo",
+    "brand":"Starbucks",
+    "about":"I'm never disappointed with anything from Starbuck. I've found that you can get 2 shots of esspresso for each pod. Just press the espreso button twice. I love my lattes strong! Enjoy!"
+  },
+  {
+    "name":"Valhalla Java",
+    "brand":"Folgers",
+    "about":" Sweet-toned, delicate, though rather simple. Cocoa and nut in aroma and cup, with faint hints of lemon and flowers. Round, muted acidity; smooth but rather lean mouthfeel. Some flavor carries into the short finish but fades toward astringency in the long."
+
+  },
+  {
+    "name":"Breakfast Blend",
+    "brand":"Green Mountain Coffee",
+    "about":"This has been my favorite coffee since day one of having my Keurig. You can't messs it up. Every cup is perfect."
+  },
+  {
+    "name":"Ethiopia Amaro Natural",
+    "brand":"Old Soul Coffee",
+    "about":"Richly complex fruit and flowers in a dry processed, single-origin Ethiopia Epresso."
+  },
+  {
+    "name":"Signature Esspresso",
+    "brand":"Topeca Coffee",
+    "about":"Crispy sweet, subtle, engaging my favorite coffee blend by far. "
+  },
+  {
+    "name":"TDark Blend",
+    "brand":"Blueprint Coffee",
+    "about":"I did not like thi particular blend of coffee. I felt like it was just too strong for my teaste"
+  },
+  {
+    "name":"Blond Roast",
+    "brand":"True Stone Coffee",
+    "about":"I loved this blond roast that I feel is much lighter and sweeter than Starbucks. "
+  },
+  {
+    "name":"Chocolate Roast",
+    "brand":"Temple Coffee",
+    "about":"I wished this blend would have tasted a bit more sweet. I feel like it was more of a darker bitter chocolate not really to my taste."
+  }
+]
