@@ -1,38 +1,47 @@
 [
   {
     "name":"Coffee Name 1",
-    "brand":"Folgers"
+    "brand":"Folgers",
+    "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, labore, debitis quaerat eos dolor iusto unde rem nobis qui quasi eveniet consequatur esse. At deleniti blanditiis voluptate aperiam illum eos."
   },
   {
     "name":"Coffee Name 2",
-    "brand":"Folgers"
+    "brand":"Folgers",
+    "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, commodi, aspernatur, cupiditate quibusdam placeat sed eveniet accusamus quisquam est dicta amet nihil distinctio laboriosam laudantium facere soluta aperiam excepturi optio?"
   },
   {
     "name":"Coffee Name 3",
-    "brand":"Coffee Brand 3"
+    "brand":"Coffee Brand 3",
+    "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nihil, nesciunt, neque, cum magnam laudantium consequuntur pariatur reprehenderit possimus quas sit quis distinctio eos doloremque autem. Fuga, magnam dolore repudiandae."
   },
   {
     "name":"Coffee Name 4",
-    "brand":"Coffee Brand 4"
+    "brand":"Coffee Brand 4",
+    "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea assumenda exercitationem quam illo recusandae eveniet praesentium nemo sequi. Ipsum sapiente labore eaque tempora dicta blanditiis perspiciatis magni id nulla modi."
   },
   {
     "name":"Coffee Name 5",
-    "brand":"Coffee Brand 5"
+    "brand":"Coffee Brand 5",
+    "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, corrupti libero atque. Dignissimos, excepturi, perspiciatis, delectus, culpa ut libero reprehenderit consequatur officiis eos expedita quisquam asperiores fugit possimus ratione dolore!"
   },
   {
     "name":"Coffee Name 6",
-    "brand":"Coffee Brand 6"
+    "brand":"Coffee Brand 6",
+    "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, tempora, praesentium, itaque suscipit nostrum ut assumenda laborum laboriosam ratione deserunt quam quis atque quidem. Magnam, illum doloribus ipsam ad harum!"
   },
   {
     "name":"Coffee Name 7",
-    "brand":"Coffee Brand 7"
+    "brand":"Coffee Brand 7",
+    "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus distinctio quidem impedit ipsam enim eius harum! Rem, facere, soluta, quam quasi quibusdam hic fugiat magni repellat dicta accusamus in quo."
   },
   {
     "name":"Coffee Name 8",
-    "brand":"Coffee Brand 8"
+    "brand":"Coffee Brand 8",
+    "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, eveniet, iusto, architecto, blanditiis saepe iure praesentium voluptatum maxime quaerat accusamus nesciunt molestias harum vero minima veniam suscipit possimus reprehenderit reiciendis?"
   },
   {
     "name":"Coffee Name 9",
-    "brand":"Coffee Brand 9"
+    "brand":"Coffee Brand 9",
+    "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, repudiandae, dolorem, nobis, dolorum incidunt iusto commodi at doloribus deleniti quo optio unde suscipit veritatis quas ex sit facere? Soluta, repudiandae."
   }
 ]

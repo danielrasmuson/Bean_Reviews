@@ -7,7 +7,6 @@
   <ul class="artistlist" ng-show="query">
     <li class="artist cf" ng-repeat="artist in artists | filter: query">
       <a href="#/details/{{artists.indexOf(artist)}}">
-        <!-- <img ng-src="images/{{artist.shortname}}_tn.jpg" alt="Photo of {{artist.name}}"> -->
         <img ng-src="images/coffeeBag{{artists.indexOf(artist)+1}}.jpg" alt="Photo of {{artist.name}}">
         <div class="info">
           <h2>{{artist.name}}</h2>
