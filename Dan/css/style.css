@@ -176,6 +176,7 @@ a.small {
 .search input {
   /*font-family: 'Droid Sans', sans-serif;*/
   width: 100%;
+  margin-top: 100px;
   padding: 10px 0 10px 15px;
   font-size: 1rem;
   /*color: #475B62;*/
@@ -315,7 +316,7 @@ a.small {
 
 /*my css*/
 body {
-  background-image: url("../Assets/images/beanDrawing.jpg");
+  background-image: url("../images/beanDrawing.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
